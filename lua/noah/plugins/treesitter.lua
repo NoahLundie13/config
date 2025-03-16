@@ -28,8 +28,6 @@ return {
         "html",
         "css",
         "prisma",
-        "markdown",
-        "markdown_inline",
         "svelte",
         "graphql",
         "bash",
@@ -40,7 +38,8 @@ return {
         "query",
         "vimdoc",
         "c",
-	"rust",
+        "rust",
+        "zig"
       },
       incremental_selection = {
         enable = true,

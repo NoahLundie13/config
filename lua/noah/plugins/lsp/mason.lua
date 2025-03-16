@@ -23,7 +23,6 @@ return {
 
     mason_lspconfig.setup({
       ensure_installed = {
-        "tsserver",
         "html",
         "cssls",
         "tailwindcss",
@@ -33,7 +32,8 @@ return {
         "emmet_ls",
         "prismals",
         "pyright",
-        "rust_analyzer"
+        "rust_analyzer",
+        "zls",
       },
 
     })
